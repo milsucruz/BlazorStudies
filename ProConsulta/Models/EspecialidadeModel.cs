@@ -8,6 +8,6 @@
 
         public string Descricao { get; set; }
 
-        public ICollection<MedicoModel> MedicoId { get; set; } = new List<MedicoModel>();
+        public ICollection<MedicoModel> Medicos { get; set; } = new List<MedicoModel>();
     }
 }
